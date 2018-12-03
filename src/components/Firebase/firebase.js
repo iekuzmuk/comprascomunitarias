@@ -1,7 +1,7 @@
 import app from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/database';
-import firebaseConfig from '../../firebase.config';
+//import firebaseConfig from '../../firebase.config';
 
 const prodConfig = {
   apiKey: process.env.REACT_APP_API_KEY,
@@ -27,7 +27,7 @@ const devConfig = {
 class Firebase {
   constructor() {
     
-    app.initializeApp(firebaseConfig);
+    app.initializeApp(devConfig);
     this.emailAuthProvider = app.auth.EmailAuthProvider;
     this.auth = app.auth();
     this.db = app.database();
