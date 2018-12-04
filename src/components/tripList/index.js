@@ -47,13 +47,13 @@ const TripList = ({ trips }) => (
     {trips.map(trip => (
       <li key={trip.uid}>
         <span>
-          <strong>Place:</strong> {trip.place}
+          <strong> Lugar: </strong> {trip.place}
         </span>
         <span>
-          <strong>Fecha:</strong> {trip.dateTrip}
+          <strong> Fecha: </strong> {trip.dateTrip}
         </span>
         <span>
-          <strong>Articulos:</strong> {trip.articles}
+          <strong> Articulos: </strong> {trip.articles}
         </span>
       </li>
     ))}
