@@ -2,7 +2,7 @@
   "name": "react-firebase-authentication",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://comprascomunitarias.com/build",
+  "homepage": "http://comprascomunitarias.com",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "firebase": "^5.5.8",
