@@ -22,6 +22,7 @@ const NavigationAuth = ({ authUser }) => (
     <li class="nav-item"><Link to={ROUTES.LANDING} class="nav-link active">Inicio</Link></li>
     <li class="nav-item"><Link to={ROUTES.TRIPLIST} class="nav-link active">Listar Viajes de Compras</Link></li>
     <li class="nav-item"><Link to={ROUTES.TRIPNEW} class="nav-link active">Ingresar Viaje de Compras</Link></li>
+    <li class="nav-item"><Link to={ROUTES.TRIPJOIN} class="nav-link active">Unirse a Viaje de Compras</Link></li>
     <li class="nav-item"><Link to={ROUTES.HOME} class="nav-link active">Home</Link></li>
     <li class="nav-item"><Link to={ROUTES.ACCOUNT} class="nav-link active">Cuenta</Link></li>
     {authUser.roles.includes(ROLES.ADMIN) && (<li><Link to={ROUTES.ADMIN}>Admin</Link></li>)}
@@ -33,7 +34,6 @@ const NavigationNonAuth = () => (
   <ul>
     <li class="nav-item"><Link to={ROUTES.LANDING} class="nav-link active">Inicio</Link></li>
     <li class="nav-item"><Link to={ROUTES.TRIPLIST} class="nav-link active">Listar Viajes de Compras</Link></li>
-    <li class="nav-item"><Link to={ROUTES.TRIPNEW} class="nav-link active">Ingresar Viaje de Compras</Link></li>
     <li class="nav-item"><Link to={ROUTES.SIGN_IN} class="nav-link active">Ingresar / Registrarse</Link></li>
   </ul>
 );

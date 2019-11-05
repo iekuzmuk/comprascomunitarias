@@ -7,3 +7,4 @@ export const ACCOUNT = '/account';
 export const ADMIN = '/admin';
 export const TRIPLIST = '/tripList';
 export const TRIPNEW = '/tripNew';
+export const TRIPJOIN = '/tripJoin';

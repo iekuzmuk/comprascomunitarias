@@ -5,6 +5,7 @@ import LandingPage from '../Landing';
 import SignUpPage from '../SignUp';
 import tripList from '../tripList';
 import tripNew from '../tripNew';
+import tripJoin from '../tripJoin';
 import SignInPage from '../SignIn';
 import PasswordForgetPage from '../PasswordForget';
 import HomePage from '../Home';
@@ -22,6 +23,7 @@ const App = () => (
       <Route exact path={ROUTES.LANDING} component={LandingPage} />
       <Route exact path={ROUTES.TRIPLIST} component={tripList} />
       <Route exact path={ROUTES.TRIPNEW} component={tripNew} />
+      <Route exact path={ROUTES.TRIPJOIN} component={tripJoin} />
       <Route exact path={ROUTES.SIGN_UP} component={SignUpPage} />
       <Route exact path={ROUTES.SIGN_IN} component={SignInPage} />
       <Route exact path={ROUTES.PASSWORD_FORGET} component={PasswordForgetPage} />

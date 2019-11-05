@@ -78,7 +78,24 @@ class Firebase {
   trips = () => this.db.ref('trips');
 
   trip = uid => this.db.ref(`trips/${uid}`);
+  pedido = uid => this.db.ref(`pedidos/${uid}`);
+  pedidos = () => this.db.ref('pedidos');
   
+  // *** User search by uid ***
+  //trip = uid => this.db.ref(`trips/${uid}`);
+ // const rootRef = this.db.ref();
+  //select a user by uid
+  //const oneRef = rootRef.child('trips').child(uid);
+  /*
+  const tripSearch = this.db.child('trips');
+  const query = tripSearch
+                .orderByChild('uid')
+                .equalTo('uid')
+                .limitToFirst(1);
+  query.on('value',snap => {
+    //render data to HTML
+  })
+  */
   // *** Message API ***
 
   messages = () => this.db.ref('messages');
