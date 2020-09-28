@@ -1,10 +1,11 @@
-#software manage community purchases.
-*uyers sign up
-*sellers sign up
-*buyers order from sellers
-*Buyers and sellers track the status of their work orders
+# software manage community purchases.
 
-htttps://comprascomunitarias.com
+* buyers sign up
+* sellers sign up
+* buyers order from sellers
+* Buyers and sellers track the status of their work orders
+
+Preview here [comprascomunitarias.com](https://comprascomunitarias.com)
 
 # react-firebase-authentication
 
